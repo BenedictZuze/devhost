@@ -1,0 +1,24 @@
+---
+import Button from "./Button.astro"
+---
+
+<nav class="text-white flex w-full h-20 justify-around border-b bg-dusk">
+    <div class="flex items-center gap-9 justify-start">
+        <h1 class="text-2xl font-semibold">Devh.st</h1>
+        <div class="flex gap-5">
+            <a href="/">NEWSLETTER</a>
+            <a href="/">APP</a>
+            <a href="/">PODCAST</a>
+            <a href="/">ALTERNATIVE</a>
+            <i data-lucide="ellipsis"></i>
+        </div>
+    </div>
+    <div class="flex items-center gap-8 justify-end">
+        <i data-lucide="search"></i>
+        <i data-lucide="sun-medium"></i>
+        <Button>
+            <p>SIGN IN</p>
+            <i data-lucide="chevron-right"></i>
+        </Button>
+    </div>
+</nav>
